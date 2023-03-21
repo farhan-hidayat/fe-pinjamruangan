@@ -37,7 +37,7 @@ include "layout/header.php";
                                 <div class="tab-pane fade show active" id="sell" role="tabpanel" aria-labelledby="sell-tab">
                                     <div class="row">
                                         <div class="col-12 mt-2">
-                                            <a href="/dashboard-transactions-details.html" class="card card-list d-block">
+                                            <a href="transaksidetail.php" class="card card-list d-block">
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <div class="col-md-1">
@@ -52,7 +52,7 @@ include "layout/header.php";
                                                     </div>
                                                 </div>
                                             </a>
-                                            <a href="/dashboard-transactions-details.html" class="card card-list d-block">
+                                            <a href="transaksidetail.php" class="card card-list d-block">
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <div class="col-md-1">
@@ -67,7 +67,7 @@ include "layout/header.php";
                                                     </div>
                                                 </div>
                                             </a>
-                                            <a href="/dashboard-transactions-details.html" class="card card-list d-block">
+                                            <a href="transaksidetail.php" class="card card-list d-block">
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <div class="col-md-1">
@@ -88,7 +88,7 @@ include "layout/header.php";
                                 <div class="tab-pane fade" id="buy" role="tabpanel" aria-labelledby="buy-tab">
                                     <div class="row">
                                         <div class="col-12 mt-2">
-                                            <a href="/dashboard-transactions-details.html" class="card card-list d-block">
+                                            <a href="transaksidetail.php" class="card card-list d-block">
                                                 <div class="card-body">
                                                     <div class="row">
                                                         <div class="col-md-1">
