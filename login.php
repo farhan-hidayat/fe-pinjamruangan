@@ -58,7 +58,7 @@
                 <label for="password">Password</label>
                 <input type="password" class="form-control w-75" />
               </div>
-              <a href="admin/dashboard.php" class="btn btn-success btn-block w-75 mt-4">Sign In to My Account</a>
+              <a href="admin/dashboard.php" class="btn btn-add btn-block w-75 mt-4">Sign In to My Account</a>
               <a href="register.php" class="btn btn-signup btn-block w-75 mt-2">Sign Up</a>
             </form>
           </div>

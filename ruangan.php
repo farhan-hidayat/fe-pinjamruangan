@@ -86,7 +86,8 @@ include "layout/header.php";
                     "></div>
               </div>
               <div class="products-text">Ruangan A</div>
-              <div class="products-price">20 Orang</div>
+              <div class="products-kapasitas">20 Orang</div>
+              <div class="products-price">Rp. 100.000</div>
             </a>
           </div>
           <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">
@@ -97,7 +98,8 @@ include "layout/header.php";
                     "></div>
               </div>
               <div class="products-text">Ruangan B</div>
-              <div class="products-price">30 Orang</div>
+              <div class="products-kapasitas">30 Orang</div>
+              <div class="products-price">Rp. 300.000</div>
             </a>
           </div>
           <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
@@ -108,7 +110,8 @@ include "layout/header.php";
                     "></div>
               </div>
               <div class="products-text">Ruangan C</div>
-              <div class="products-price">50 Orang</div>
+              <div class="products-kapasitas">50 Orang</div>
+              <div class="products-price">Rp. 500.000</div>
             </a>
           </div>
           <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="400">
@@ -119,7 +122,8 @@ include "layout/header.php";
                     "></div>
               </div>
               <div class="products-text">Ruangan D</div>
-              <div class="products-price">70 Orang</div>
+              <div class="products-kapasitas">70 Orang</div>
+              <div class="products-price">Rp. 700.000</div>
             </a>
           </div>
           <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="500">
@@ -130,7 +134,8 @@ include "layout/header.php";
                     "></div>
               </div>
               <div class="products-text">Ruangan E</div>
-              <div class="products-price">30 Orang</div>
+              <div class="products-kapasitas">30 Orang</div>
+              <div class="products-price">Rp. 300.000</div>
             </a>
           </div>
           <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="600">
@@ -141,7 +146,8 @@ include "layout/header.php";
                     "></div>
               </div>
               <div class="products-text">Ruangan F</div>
-              <div class="products-price">20 Orang</div>
+              <div class="products-kapasitas">20 Orang</div>
+              <div class="products-price">Rp. 200.000</div>
             </a>
           </div>
           <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="700">
@@ -152,7 +158,8 @@ include "layout/header.php";
                     "></div>
               </div>
               <div class="products-text">Ruangan G</div>
-              <div class="products-price">50 Orang</div>
+              <div class="products-kapasitas">50 Orang</div>
+              <div class="products-price">Rp. 500.000</div>
             </a>
           </div>
           <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="800">
@@ -163,7 +170,8 @@ include "layout/header.php";
                     "></div>
               </div>
               <div class="products-text">Ruangan H</div>
-              <div class="products-price">40 Orang</div>
+              <div class="products-kapasitas">40 Orang</div>
+              <div class="products-price">Rp. 400.000</div>
             </a>
           </div>
         </div>

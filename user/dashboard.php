@@ -67,36 +67,6 @@ include "layout/header.php";
                       </div>
                     </div>
                   </a>
-                  <a href="/dashboard-transactions-details.html" class="card card-list d-block">
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col-md-1">
-                          <img src="/images/dashboard-icon-product-2.png" class="w-50" />
-                        </div>
-                        <div class="col-md-4">Ruangan B</div>
-                        <div class="col-md-3">Santi</div>
-                        <div class="col-md-3">22 Maret 2023</div>
-                        <div class="col-md-1 d-none d-md-block">
-                          <img src="/images/dashboard-arrow-right.svg" />
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="/dashboard-transactions-details.html" class="card card-list d-block">
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col-md-1">
-                          <img src="/images/dashboard-icon-product-3.png" class="w-50" />
-                        </div>
-                        <div class="col-md-4">Ruangan C</div>
-                        <div class="col-md-3">Apri</div>
-                        <div class="col-md-3">21 Maret 2023</div>
-                        <div class="col-md-1 d-none d-md-block">
-                          <img src="/images/dashboard-arrow-right.svg" />
-                        </div>
-                      </div>
-                    </div>
-                  </a>
                 </div>
               </div>
             </div>
@@ -108,3 +78,9 @@ include "layout/header.php";
 
   <!-- Bootstrap core JavaScript -->
   <?php include "layout/footer.php" ?>
+
+  <!-- Script Page-->
+
+</body>
+
+</html>

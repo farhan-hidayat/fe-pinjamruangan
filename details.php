@@ -54,11 +54,11 @@ include "layout/header.php";
           <div class="row">
             <div class="col-lg-8">
               <h1>Ruangan A</h1>
-              <div class="owner">Kapasitas</div>
-              <div class="price">20 Orang</div>
+              <div class="owner">Kapasitas 20 Orang</div>
+              <div class="price">Rp. 100.000</div>
             </div>
             <div class="col-lg-2" data-aos="zoom-in">
-              <a href="/cart.html" class="btn btn-success px-4 text-white btn-block mb-3">Pinjam
+              <a href="cart.php" class="btn btn-add px-4 text-white btn-block mb-3">Pinjam
               </a>
             </div>
           </div>

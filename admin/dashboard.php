@@ -52,7 +52,7 @@ include "layout/header.php";
               <div class="row mt-3">
                 <div class="col-12 mt-2">
                   <h5 class="mb-3">Pinjaman Terakhir</h5>
-                  <a href="/dashboard-transactions-details.html" class="card card-list d-block">
+                  <a href="transaksidetail.php" class="card card-list d-block">
                     <div class="card-body">
                       <div class="row">
                         <div class="col-md-1">
@@ -67,7 +67,7 @@ include "layout/header.php";
                       </div>
                     </div>
                   </a>
-                  <a href="/dashboard-transactions-details.html" class="card card-list d-block">
+                  <a href="transaksidetail.php" class="card card-list d-block">
                     <div class="card-body">
                       <div class="row">
                         <div class="col-md-1">
@@ -82,7 +82,7 @@ include "layout/header.php";
                       </div>
                     </div>
                   </a>
-                  <a href="/dashboard-transactions-details.html" class="card card-list d-block">
+                  <a href="transaksidetail.php" class="card card-list d-block">
                     <div class="card-body">
                       <div class="row">
                         <div class="col-md-1">

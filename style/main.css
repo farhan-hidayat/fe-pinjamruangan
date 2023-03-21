@@ -9197,6 +9197,19 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.btn-add {
+  background-color: #0804f0;
+  color: #fff;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ff7158;
+  margin-bottom: 10px;
+}
+
 .page-content {
   margin-top: 100px;
 }
@@ -9292,13 +9305,6 @@ footer p {
   line-height: 21px;
   color: #979797;
   margin-bottom: 8px;
-}
-.page-details .store-heading .price {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
-  color: #ff7158;
-  margin-bottom: 10px;
 }
 .page-details .store-description {
   font-weight: normal;
@@ -9463,10 +9469,6 @@ footer p {
   box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
 }
 
-.page-dashboard .btn-add {
-  background-color: #0804f0;
-  color: #fff;
-}
 .page-dashboard #page-content-wrapper {
   background: #f5f5fb;
   min-width: 100vw;
@@ -9631,6 +9633,11 @@ footer p {
   font-size: 18px;
   color: #0c0d36;
   margin-top: 12px;
+}
+.component-products .products-kapasitas {
+  font-weight: 500;
+  font-size: 14px;
+  color: #525252;
 }
 .component-products .products-price {
   font-weight: 500;

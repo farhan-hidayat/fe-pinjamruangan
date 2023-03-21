@@ -30,60 +30,58 @@ include "layout/header.php";
                                     </a>
                                 </div>
                             </div> -->
-                            <div class="row mt-4">
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <a href="/dashboard-products-details.html" class="card card-dashboard-product d-block">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
                                         <div class="card-body">
-                                            <img src="/images/product-card-1.png" alt="" class="w-100 mb-2" />
-                                            <div class="product-title">Sofa Ternyaman</div>
-                                            <div class="product-category">Furniture</div>
+                                            <div class="table-responsive">
+                                                <table class="table table-hover scroll-horizontal-vertical w-100" id="myTable">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>No</th>
+                                                            <th>Nama</th>
+                                                            <th>Email</th>
+                                                            <th>No.HP</th>
+                                                            <th>Instansi</th>
+                                                            <th>Aksi</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Farhan Hidayat</td>
+                                                            <td>farhanarchman@gmail.com</td>
+                                                            <td>08121212</td>
+                                                            <td>Fakultas Teknik</td>
+                                                            <td>
+                                                                <a class="btn btn-info" href="#">
+                                                                    Sunting
+                                                                </a>
+                                                                <a class="btn btn-danger" href="#">
+                                                                    Hapus
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Santi</td>
+                                                            <td>santi@gmail.com</td>
+                                                            <td>08121212</td>
+                                                            <td>Fakultas Teknik</td>
+                                                            <td>
+                                                                <a class="btn btn-info" href="#">
+                                                                    Sunting
+                                                                </a>
+                                                                <a class="btn btn-danger" href="#">
+                                                                    Hapus
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
                                         </div>
-                                    </a>
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <a href="/dashboard-products-details.html" class="card card-dashboard-product d-block">
-                                        <div class="card-body">
-                                            <img src="/images/product-card-1.png" alt="" class="w-100 mb-2" />
-                                            <div class="product-title">Sofa Ternyaman</div>
-                                            <div class="product-category">Furniture</div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <a href="/dashboard-products-details.html" class="card card-dashboard-product d-block">
-                                        <div class="card-body">
-                                            <img src="/images/product-card-1.png" alt="" class="w-100 mb-2" />
-                                            <div class="product-title">Sofa Ternyaman</div>
-                                            <div class="product-category">Furniture</div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <a href="/dashboard-products-details.html" class="card card-dashboard-product d-block">
-                                        <div class="card-body">
-                                            <img src="/images/product-card-1.png" alt="" class="w-100 mb-2" />
-                                            <div class="product-title">Sofa Ternyaman</div>
-                                            <div class="product-category">Furniture</div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <a href="/dashboard-products-details.html" class="card card-dashboard-product d-block">
-                                        <div class="card-body">
-                                            <img src="/images/product-card-1.png" alt="" class="w-100 mb-2" />
-                                            <div class="product-title">Sofa Ternyaman</div>
-                                            <div class="product-category">Furniture</div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <a href="/dashboard-products-details.html" class="card card-dashboard-product d-block">
-                                        <div class="card-body">
-                                            <img src="/images/product-card-1.png" alt="" class="w-100 mb-2" />
-                                            <div class="product-title">Sofa Ternyaman</div>
-                                            <div class="product-category">Furniture</div>
-                                        </div>
-                                    </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

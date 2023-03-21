@@ -21,6 +21,12 @@
                         <a href="/index.php" class="dropdown-item">Logout</a>
                     </div>
                 </li>
+                <li class="nav-item">
+                    <a href="/cart.php" class="nav-link d-inline-block mt-2">
+                        <img src="/images/icon-cart-filled.svg" alt="Icon Cart" />
+                        <div class="card-badge">3</div>
+                    </a>
+                </li>
             </ul>
             <!-- Mobile Menu-->
             <ul class="navbar-nav d-block d-lg-none">

@@ -79,7 +79,7 @@
                 <label>No.HP</label>
                 <input type="number" class="form-control" />
               </div>
-              <a href="admin/dashboard.php" class="btn btn-success btn-block mt-4">Sign Up Now</a>
+              <a href="register-success.php" class="btn btn-add btn-block mt-4">Sign Up Now</a>
               <a href="login.php" class="btn btn-signup btn-block mt-2">Back to Sign In</a>
             </form>
           </div>

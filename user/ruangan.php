@@ -19,51 +19,48 @@ include "layout/header.php";
                 <div class="section-content section-dashboard-home" data-aos="fade-up">
                     <div class="container-fluid">
                         <div class="dashboard-heading">
-                            <h2 class="dashboard-title">Data Ruangan</h2>
+                            <h2 class="dashboard-title">Daftar Ruangan</h2>
                             <p class="dashboard-subtitle">Manage it well and get money</p>
                         </div>
                         <div class="dashboard-content">
-                            <div class="row">
-                                <div class="col-12">
-                                    <a href="tambahruangan.php" class="btn btn-add">
-                                        Tambah Ruangan Baru
-                                    </a>
-                                </div>
-                            </div>
                             <div class="row mt-4">
                                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <a href="detailruangan.php" class="card card-dashboard-product d-block">
+                                    <a href="/details.php" class="card card-dashboard-product d-block">
                                         <div class="card-body">
                                             <img src="/images/product-card-1.png" alt="" class="w-100 mb-2" />
                                             <div class="product-title">Ruangan A</div>
                                             <div class="product-category">20 Orang</div>
+                                            <div class="price">Rp. 100.000</div>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <a href="detailruangan.php" class="card card-dashboard-product d-block">
+                                    <a href="/details.php" class="card card-dashboard-product d-block">
                                         <div class="card-body">
                                             <img src="/images/product-card-1.png" alt="" class="w-100 mb-2" />
                                             <div class="product-title">Ruangan B</div>
                                             <div class="product-category">30 Orang</div>
+                                            <div class="price">Rp. 300.000</div>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <a href="detailruangan.php" class="card card-dashboard-product d-block">
+                                    <a href="/details.php" class="card card-dashboard-product d-block">
                                         <div class="card-body">
                                             <img src="/images/product-card-1.png" alt="" class="w-100 mb-2" />
                                             <div class="product-title">Ruangan C</div>
                                             <div class="product-category">50 Orang</div>
+                                            <div class="price">Rp. 500.000</div>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                                    <a href="detailruangan.php" class="card card-dashboard-product d-block">
+                                    <a href="/details.php" class="card card-dashboard-product d-block">
                                         <div class="card-body">
                                             <img src="/images/product-card-1.png" alt="" class="w-100 mb-2" />
                                             <div class="product-title">Ruangan D</div>
                                             <div class="product-category">70 Orang</div>
+                                            <div class="price">Rp. 700.000</div>
                                         </div>
                                     </a>
                                 </div>

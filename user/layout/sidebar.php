@@ -7,7 +7,7 @@
             Dashboard
         </a>
         <a href="ruangan.php" class="list-group-item list-group-item-action <?php if ($page == "Data Ruangan") echo "active"; ?>">
-            Data Ruangan
+            Daftar Ruangan
         </a>
         <a href="transaksi.php" class="list-group-item list-group-item-action <?php if ($page == "Transaksi") echo "active"; ?>">
             Transaksi
