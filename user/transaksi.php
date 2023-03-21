@@ -1,6 +1,6 @@
 <!-- Header -->
 <?php
-$page = "Pinjaman";
+$page = "Transaksi";
 include "layout/header.php";
 ?>
 

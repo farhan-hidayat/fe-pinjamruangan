@@ -116,3 +116,9 @@ include "layout/header.php";
 
     <!-- Bootstrap core JavaScript -->
     <?php include "layout/footer.php" ?>
+
+    <!-- Script Page-->
+
+</body>
+
+</html>

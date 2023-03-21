@@ -9,14 +9,8 @@
         <a href="ruangan.php" class="list-group-item list-group-item-action <?php if ($page == "Data Ruangan") echo "active"; ?>">
             Data Ruangan
         </a>
-        <a href="pinjaman.php" class="list-group-item list-group-item-action <?php if ($page == "Pinjaman") echo "active"; ?>">
-            Pinjaman
-        </a>
-        <a href="pengembalian.php" class="list-group-item list-group-item-action <?php if ($page == "Pengembalian") echo "active"; ?>">
-            Pengembalian
-        </a>
-        <a href="pengguna.php" class="list-group-item list-group-item-action <?php if ($page == "Data Pengguna") echo "active"; ?>">
-            Pengguna
+        <a href="transaksi.php" class="list-group-item list-group-item-action <?php if ($page == "Transaksi") echo "active"; ?>">
+            Transaksi
         </a>
     </div>
 </div>

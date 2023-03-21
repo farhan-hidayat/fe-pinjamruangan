@@ -25,7 +25,7 @@ include "layout/header.php";
                         <div class="dashboard-content">
                             <div class="row">
                                 <div class="col-12">
-                                    <a href="/dashboard-products-create.html" class="btn btn-success">
+                                    <a href="/dashboard-products-create.html" class="btn btn-add">
                                         Tambah Ruangan Baru
                                     </a>
                                 </div>
@@ -77,3 +77,9 @@ include "layout/header.php";
 
     <!-- Bootstrap core JavaScript -->
     <?php include "layout/footer.php" ?>
+
+    <!-- Script Page-->
+
+</body>
+
+</html>

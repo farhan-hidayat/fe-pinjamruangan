@@ -19,17 +19,17 @@ include "layout/header.php";
                 <div class="section-content section-dashboard-home" data-aos="fade-up">
                     <div class="container-fluid">
                         <div class="dashboard-heading">
-                            <h2 class="dashboard-title">My Products</h2>
+                            <h2 class="dashboard-title">Data Pengguna</h2>
                             <p class="dashboard-subtitle">Manage it well and get money</p>
                         </div>
                         <div class="dashboard-content">
-                            <div class="row">
+                            <!-- <div class="row">
                                 <div class="col-12">
                                     <a href="/dashboard-products-create.html" class="btn btn-success">
                                         Add New Product
                                     </a>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="row mt-4">
                                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                                     <a href="/dashboard-products-details.html" class="card card-dashboard-product d-block">
@@ -95,3 +95,9 @@ include "layout/header.php";
 
     <!-- Bootstrap core JavaScript -->
     <?php include "layout/footer.php" ?>
+
+    <!-- Script Page-->
+
+</body>
+
+</html>
