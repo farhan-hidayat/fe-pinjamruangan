@@ -49,16 +49,23 @@
               Belanja kebutuhan utama, <br />
               menjadi lebih mudah
             </h2>
-            <form action="" class="mt-3">
+            <?php
+            if (isset($_GET['pesan'])) {
+              if ($_GET['pesan'] == "gagal") {
+                echo "<div class='alert'>Username dan Password tidak sesuai !</div>";
+              }
+            }
+            ?>
+            <form method="POST" action="cek_login.php" class="mt-3">
               <div class="form-group">
                 <label for="email">Email Address</label>
-                <input type="email" class="form-control w-75" />
+                <input type="email" name="email" class="form-control w-75" />
               </div>
               <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" class="form-control w-75" />
+                <input type="password" name="password" class="form-control w-75" />
               </div>
-              <a href="admin/dashboard.php" class="btn btn-add btn-block w-75 mt-4">Sign In to My Account</a>
+              <button type="submit" class="btn btn-add btn-block w-75 mt-4">Sign In to My Account</button>
               <a href="register.php" class="btn btn-signup btn-block w-75 mt-2">Sign Up</a>
             </form>
           </div>

@@ -12,13 +12,13 @@
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown">
                         <img src="/images/icon-user.png" alt="Icon User" class="rounded-circle mr-2 profile-picture" />
-                        Hi, Farhan
+                        Hi, <?php echo $_SESSION['name']; ?>
                     </a>
                     <div class="dropdown-menu">
                         <a href="dashboard.php" class="dropdown-item">Dashboard</a>
                         <a href="akun.php" class="dropdown-item">Kelolah Akun</a>
                         <div class="dropdown-divider"></div>
-                        <a href="/index.php" class="dropdown-item">Logout</a>
+                        <a href="../../logout.php" class="dropdown-item">Logout</a>
                     </div>
                 </li>
                 <li class="nav-item">

@@ -57,7 +57,7 @@ include "layout/header.php";
                                                                     <td>Farhan Hidayat</td>
                                                                     <td>Ruangan A</td>
                                                                     <td><?= date("Y-m-d h:i:s"); ?></td>
-                                                                    <td>Belum Bayar</td>
+                                                                    <td><span class="badge bg-danger">Belum Bayar</span></td>
                                                                     <td>
                                                                         <a class="btn btn-info" href="transaksidetail.php">
                                                                             Sunting
@@ -72,7 +72,7 @@ include "layout/header.php";
                                                                     <td>Santi</td>
                                                                     <td>Ruangan B</td>
                                                                     <td><?= date("Y-m-d h:i:s"); ?></td>
-                                                                    <td>Sudah Bayar</td>
+                                                                    <td><span class="badge bg-success">Sudah Bayar</span></td>
                                                                     <td>
                                                                         <a class="btn btn-info" href="transaksidetail.php">
                                                                             Sunting
@@ -113,7 +113,7 @@ include "layout/header.php";
                                                                     <td>Farhan Hidayat</td>
                                                                     <td>Ruangan A</td>
                                                                     <td><?= date("Y-m-d h:i:s"); ?></td>
-                                                                    <td>Belum Bayar</td>
+                                                                    <td><span class="badge bg-danger">Belum Dikembalikan</span></td>
                                                                     <td>
                                                                         <a class="btn btn-info" href="transaksidetail.php">
                                                                             Sunting
@@ -128,7 +128,7 @@ include "layout/header.php";
                                                                     <td>Santi</td>
                                                                     <td>Ruangan B</td>
                                                                     <td><?= date("Y-m-d h:i:s"); ?></td>
-                                                                    <td>Sudah Bayar</td>
+                                                                    <td><span class="badge bg-success">Sudah Dikembalikan</span></td>
                                                                     <td>
                                                                         <a class="btn btn-info" href="transaksidetail.php">
                                                                             Sunting
