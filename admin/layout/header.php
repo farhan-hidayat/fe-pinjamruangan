@@ -1,6 +1,10 @@
 <?php
 session_start();
-include "../koneksi.php"
+include "../koneksi.php";
+
+if ($_SESSION['level'] == "") {
+    header("location:../login.php?pesan=gagal");
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

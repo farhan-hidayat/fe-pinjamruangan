@@ -36,110 +36,6 @@ include "layout/header.php";
         </div>
       </div>
     </section>
-    <!-- <section class="store-trand-categories">
-        <div class="container">
-          <div class="row">
-            <div class="col-12" data-aos="fade-up">
-              <h5>Ruangan</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div
-              class="col-6 col-md-3 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <a href="#" class="component-categories d-block">
-                <div class="categories-image">
-                  <img
-                    src="/images/categories-gadgets.svg"
-                    alt=""
-                    class="w-100"
-                  />
-                  <p class="categories-text">Gadgets</p>
-                </div>
-              </a>
-            </div>
-            <div
-              class="col-6 col-md-3 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <a href="#" class="component-categories d-block">
-                <div class="categories-image">
-                  <img
-                    src="/images/categories-furniture.svg"
-                    alt=""
-                    class="w-100"
-                  />
-                  <p class="categories-text">Furniture</p>
-                </div>
-              </a>
-            </div>
-            <div
-              class="col-6 col-md-3 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <a href="#" class="component-categories d-block">
-                <div class="categories-image">
-                  <img
-                    src="/images/categories-makeup.svg"
-                    alt=""
-                    class="w-100"
-                  />
-                  <p class="categories-text">Make Up</p>
-                </div>
-              </a>
-            </div>
-            <div
-              class="col-6 col-md-3 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <a href="#" class="component-categories d-block">
-                <div class="categories-image">
-                  <img
-                    src="/images/categories-sneaker.svg"
-                    alt=""
-                    class="w-100"
-                  />
-                  <p class="categories-text">Sneaker</p>
-                </div>
-              </a>
-            </div>
-            <div
-              class="col-6 col-md-3 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <a href="#" class="component-categories d-block">
-                <div class="categories-image">
-                  <img
-                    src="/images/categories-tools.svg"
-                    alt=""
-                    class="w-100"
-                  />
-                  <p class="categories-text">Tools</p>
-                </div>
-              </a>
-            </div>
-            <div
-              class="col-6 col-md-3 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-              <a href="#" class="component-categories d-block">
-                <div class="categories-image">
-                  <img src="/images/categories-baby.svg" alt="" class="w-100" />
-                  <p class="categories-text">Baby</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section> -->
-
     <section class="store-new-products">
       <div class="container">
         <div class="row">
@@ -199,6 +95,49 @@ include "layout/header.php";
         </div>
       </div>
     </section>
+    <section class="store-new-products">
+      <div class="container">
+        <div class="row">
+          <div class="col-12" data-aos="fade-up">
+            <h5>Ruangan Terpakai</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mt-2" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-hover scroll-horizontal-vertical w-100" id="myTable">
+                    <thead>
+                      <tr>
+                        <th>No</th>
+                        <th>Nama Peminjam</th>
+                        <th>Ruangan</th>
+                        <th>Tanggal Dipakai</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Farhan Hidayat</td>
+                        <td>Ruangan A</td>
+                        <td><?= date("Y-m-d h:i:s"); ?></td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Santi</td>
+                        <td>Ruangan B</td>
+                        <td><?= date("Y-m-d h:i:s"); ?></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 
   <!-- Footer-->
@@ -206,6 +145,12 @@ include "layout/header.php";
   <?php include "layout/script.php" ?>
 
   <!-- Script Page-->
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#myTable').DataTable();
+    });
+  </script>
 
 </body>
 
