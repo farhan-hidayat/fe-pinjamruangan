@@ -31,7 +31,7 @@ include "layout/header.php";
                                 </div>
                             </div>
                             <div class="row mt-4">
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-container">
                                     <a href="detailruangan.php" class="card card-dashboard-product d-block">
                                         <div class="card-body">
                                             <img src="/images/product-card-1.png" alt="" class="w-100 mb-2" />
@@ -39,8 +39,11 @@ include "layout/header.php";
                                             <div class="product-category">20 Orang</div>
                                         </div>
                                     </a>
+                                    <a href="#" class="delete-gallery">
+                                        <img src="/images/icon-delete.svg" alt="" />
+                                    </a>
                                 </div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-container">
                                     <a href="detailruangan.php" class="card card-dashboard-product d-block">
                                         <div class="card-body">
                                             <img src="/images/product-card-1.png" alt="" class="w-100 mb-2" />
@@ -48,8 +51,11 @@ include "layout/header.php";
                                             <div class="product-category">30 Orang</div>
                                         </div>
                                     </a>
+                                    <a href="#" class="delete-gallery">
+                                        <img src="/images/icon-delete.svg" alt="" />
+                                    </a>
                                 </div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-container">
                                     <a href="detailruangan.php" class="card card-dashboard-product d-block">
                                         <div class="card-body">
                                             <img src="/images/product-card-1.png" alt="" class="w-100 mb-2" />
@@ -57,14 +63,20 @@ include "layout/header.php";
                                             <div class="product-category">50 Orang</div>
                                         </div>
                                     </a>
+                                    <a href="#" class="delete-gallery">
+                                        <img src="/images/icon-delete.svg" alt="" />
+                                    </a>
                                 </div>
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-container">
                                     <a href="detailruangan.php" class="card card-dashboard-product d-block">
                                         <div class="card-body">
                                             <img src="/images/product-card-1.png" alt="" class="w-100 mb-2" />
                                             <div class="product-title">Ruangan D</div>
                                             <div class="product-category">70 Orang</div>
                                         </div>
+                                    </a>
+                                    <a href="#" class="delete-gallery">
+                                        <img src="/images/icon-delete.svg" alt="" />
                                     </a>
                                 </div>
                             </div>
